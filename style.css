@@ -7,6 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -14,8 +15,7 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     color: #333;
 }
 
@@ -41,5 +41,5 @@ button {
 }
 
 button:hover {
-    background-color: #444;
+    background-color: #9088cd;
 }

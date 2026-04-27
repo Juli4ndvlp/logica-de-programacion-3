@@ -11,13 +11,13 @@
 <body>
     <h1>Factorial</h1>
 
-    <form action="/factorial" method="post">
-        <label for="number">Number</label>
-        <input type="number" id="number" name="number">
-        <button type="submit">Calculate</button>
+    <form id="formfactorial">
+        <label for="number">Numero a calcular el factorial</label>
+        <input type="number" id="numero" name="number" placeholder="0">
+        <button type="submit">Calcular</button>
     </form>
 
-
+    <h2 id="resultado"></h2>
 
     <script src="script.js"></script>
 </body>
